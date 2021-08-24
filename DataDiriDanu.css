@@ -1,0 +1,293 @@
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.Saya {
+    margin-bottom: 50px;
+    margin-left: 30%;
+}
+
+.deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    color: #364f6b;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.wrapper-kerja {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #364f6b;
+}
+
+.wrapper-pendidikan {
+    width: 100%;
+    position: relative;
+    background-color: yellow;    
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.sok-kerja {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Comic sans ms';
+    padding: 50px 0px 50px 0px;
+}
+
+.karya-ku {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Comic sans ms';
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.p-karya {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.wrapper-karya {
+    width: 100%;
+    position: relative;
+    background-color: palevioletred;
+    margin: 0px;
+}
+
+.karya-list {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+}
+
+.list-gambar {
+    width: 20%;
+    margin: 20px 0px 20px 0px;
+}
+
+.list-gambar img {
+    width: 80%;
+    border-radius: 20%;
+}
+
+.kolom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 20px;
+}
+
+.kolom-pendidikan {
+    line-height: 30px;
+}
+
+
+.tengah-pendidikan {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Comic sans ms';
+    padding: 50px 0px 20px 0px;
+}
+
+h3 {
+    color: black;
+    font-weight: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 15px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab {
+    margin-left: 16%;
+}
+
+.tab2 {
+    margin-left: 2.3%;
+}
+
+.tab3 {
+    margin-left: 5.5%;
+}
+
+.tab4 {
+    margin-left: 14.5%;
+}
+
+.tab5 {
+    margin-left: 11%;
+}
+
+.tab6 {
+    margin-left: 24.5%;
+    line-height: 20px;
+}
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.foto-tentang {
+    position: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.fotoin {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.foto-tentang img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.contact-list {
+    padding-top: 100px;
+}
+
+#copyright {
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0px;
+    }
+
+nav .menu ul {
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+}
+nav .menu ul li {
+    display: inline-block;
+    float: none;
+}
+section {
+    display: block;
+}
+section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.kartu-partner {
+    width: 50%;
+}
+.kartu-tutors {
+    width: 50%;
+}
+    
+}
+
